@@ -22,12 +22,13 @@ a {
 
 .form_container {
   width: 350px;
-  height: 400px;
+  height: 380px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem 0 1rem 0;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(2px);
@@ -35,7 +36,7 @@ a {
 }
 
 .form {
-  width: 70%;
+  width: 75%;
   height: 70%;
   display: flex;
   flex-direction: column;
@@ -46,7 +47,7 @@ a {
 .title {
   color: #fff;
   font-family: "Kalam", cursive;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .btn_container {
@@ -56,7 +57,7 @@ a {
   margin-top: 20px;
   background-color: transparent;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   transition: all 0.3s ease-in-out;
   font-family: "Roboto", sans-serif;
@@ -82,8 +83,16 @@ a {
   align-items: center;
   font-size: 1.3rem;
   margin-right: 2rem;
-}
-
-.icon:hover {
-  color: red;
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
