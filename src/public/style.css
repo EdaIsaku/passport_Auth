@@ -48,6 +48,7 @@ a {
   color: #fff;
   font-family: "Kalam", cursive;
   font-size: 2.8rem;
+  user-select: none;
 }
 
 .btn_container {
@@ -64,6 +65,12 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .btn_container:hover {
