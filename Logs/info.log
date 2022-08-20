@@ -1,0 +1,171 @@
+{
+  message: 'test',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2022-08-20T14:34:23.351Z'
+}
+{"level":"info","message":"test"}
+{"level":"error","message":"test"}
+{"level":"error","message":"test"}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T15:34:16.586Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T15:34:25.854Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T15:34:25.854Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:27:30.025Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:27:30.025Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:27:31.466Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:27:31.467Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:00.194Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:00.195Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:01.528Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:01.529Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:26.772Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:26.773Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:27.987Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:27.988Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:44.714Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:44.715Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:45.921Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:45.922Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:47.209Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:47.209Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:48.324Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:48.324Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:58.703Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:58.703Z'
+}
+{
+  message: 'test',
+  level: 'error',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:59.934Z'
+}
+{
+  message: 'test',
+  level: 'info',
+  label: 'info',
+  timestamp: '2022-08-20T16:28:59.936Z'
+}
