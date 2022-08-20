@@ -25,7 +25,8 @@ const getUsers = (req, res) => {
 
 const getUserByID = (req, res) => {
   const { id } = req.params;
-  const query = `SELECT * FROM users WHERE id=${id}`;
+  const query = { text: "SELECT * FROM users WHERE id = $1", values: [id] };
+
   pool.query(query, (error, result) => {
     if (error) {
       console.log(error);
@@ -36,9 +37,7 @@ const getUserByID = (req, res) => {
 };
 
 const addUser = (req, res) => {
-  const { id, first_name, last_name, email } = req.query;
-  console.log(id, first_name, last_name, email);
-
+  const { id, first_name, last_name, email } = req.body;
   const query =
     "INSERT INTO users (id, first_name, last_name, email) VALUES ($1, $2, $3, $4) RETURNING *";
   pool.query(query, [id, first_name, last_name, email], (error, result) => {
@@ -51,9 +50,23 @@ const addUser = (req, res) => {
   });
 };
 
+const deleteByID = (req, res) => {
+  const { id } = req.params;
+  const query = { text: "DELETE FROM users WHERE id = $1", values: [id] };
+
+  pool.query(query, (error, result) => {
+    if (error) {
+      console.log(error);
+    } else {
+      res.status(200).send(`Deleted user with id: ${id}`);
+    }
+  });
+};
+
 module.exports = {
   createTable,
   getUsers,
   getUserByID,
   addUser,
+  deleteByID,
 };
